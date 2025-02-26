@@ -1,0 +1,40 @@
+body {
+    font-family: Arial, sans-serif; /* fonte */
+    display:flex; /* usa o FlexBox para exibir o conteúdo */
+    justify-content: center; /* centraliza na horizontal */
+    height: 100vh; /* altura da página é todo o conteúdo dela*/
+    align-items: center; /* centralizar na vertical */
+    background-color: rgb(38, 0, 255);
+}
+.container {
+    background-color: whitesmoke;
+    padding: 20px; /* espaçamento interno */
+    border-radius: 10px; /* bordas arredondadas */
+    /* sombreamento 4px (horizontal) 8px (vertical) */
+    box-shadow: 4px 8px; /* sombreamento */
+    text-align: center; /* centraliza texto */
+}
+h2{
+    padding: 10px;
+}
+
+button{
+    background-color: purple;
+    color: goldenrod;
+    border: none; 
+    padding: 5px; /* espaçamento interno */
+    border-radius: 5px; /* bordas arredondadas */
+    cursor: pointer; /* mouse vira um ponteiro */
+}
+
+/* criar efeito de passar o mouse no botão */
+button:hover{
+    background-color: rgb(3, 255, 3);
+}
+
+.imagem{
+    border-radius: 50%;
+    width: 100px; /* largura */
+    height: 100px; /* altura */
+    margin-bottom: 10px; /* espaçamento externo */
+}
