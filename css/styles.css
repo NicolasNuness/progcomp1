@@ -4,7 +4,7 @@ body {
     justify-content: center; /* centraliza na horizontal */
     height: 100vh; /* altura da página é todo o conteúdo dela*/
     align-items: center; /* centralizar na vertical */
-   background-image: url(https://wallpaper.forfun.com/fetch/23/23ab320223d661e4004e39acdffbd25c.jpeg);
+   background-image: url('https://wallpaper.forfun.com/fetch/23/23ab320223d661e4004e39acdffbd25c.jpeg');
    background-size: cover;
 }
 .container {
@@ -35,7 +35,7 @@ button:hover{
 
 .imagem{
     border-radius: 50%;
-    width: 200px; /* largura */
-    height: 200px; /* altura */
+    width: 250px; /* largura */
+    height: 250px; /* altura */
     margin-bottom: 10px; /* espaçamento externo */
 }
