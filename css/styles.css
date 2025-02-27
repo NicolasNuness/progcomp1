@@ -4,7 +4,8 @@ body {
     justify-content: center; /* centraliza na horizontal */
     height: 100vh; /* altura da página é todo o conteúdo dela*/
     align-items: center; /* centralizar na vertical */
-    background-color: rgb(38, 0, 255);
+   background-image: url(https://wallpaper.forfun.com/fetch/23/23ab320223d661e4004e39acdffbd25c.jpeg);
+   background-size: cover;
 }
 .container {
     background-color: whitesmoke;
@@ -19,7 +20,7 @@ h2{
 }
 
 button{
-    background-color: purple;
+    background-color: rgb(109, 109, 109);
     color: goldenrod;
     border: none; 
     padding: 5px; /* espaçamento interno */
@@ -34,7 +35,7 @@ button:hover{
 
 .imagem{
     border-radius: 50%;
-    width: 100px; /* largura */
-    height: 100px; /* altura */
+    width: 200px; /* largura */
+    height: 200px; /* altura */
     margin-bottom: 10px; /* espaçamento externo */
 }
